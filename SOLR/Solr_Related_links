@@ -1,0 +1,106 @@
+Setup Solr Cloud
+
+
+
+why solr cloud indexing and routing of docs are needed
+
+http://lucene.472066.n3.nabble.com/Solr-Cloud-sharding-strategy-td4262274.html#a4262304
+
+
+how data import handler works 
+
+https://cwiki.apache.org/confluence/display/solr/Uploading+Structured+Data+Store+Data+with+the+Data+Import+Handler
+
+https://gist.github.com/maxivak/3e3ee1fca32f3949f052
+
+How to reindex 
+
+http://wiki.apache.org/solr/HowToReindex
+
+
+WHY BATCH size should be "-1" instead of 1 or other value 
+
+https://datafireball.com/2016/02/29/solr-dih-batchsize/
+
+Data Request Handler 
+
+https://datafireball.com/2016/02/28/solr-data-import-request-handler/
+
+
+
+how to handle Zookeeper on two machine if most of nodes are down ?
+http://stackoverflow.com/questions/13403852/how-does-solrcloud-handle-host-failures?rq=1
+
+Importing data into solr
+http://entropytc.com/importing-a-mysql-database-into-apache-solr/
+
+
+
+How to setup solr cloud with zookeeper (external), also why external Zookeeper required 
+step by step :----
+https://cwiki.apache.org/confluence/display/solr/Setting+Up+an+External+ZooKeeper+Ensemble
+http://jayant7k.blogspot.in/2013/06/step-by-step-setting-up-solr-cloud.html
+http://zookeeper.apache.org/doc/r3.4.5/zookeeperAdmin.html#sc_CrossMachineRequirements
+
+
+
+
+
+we have setup on solr cloud 6.2
+
+
+
+
+
+how to use solr repo using spring 
+
+http://docs.spring.io/spring-data/solr/docs/1.2.0.RC1/reference/htmlsingle/
+
+http://docs.spring.io/spring-data/solr/docs/current/reference/html/#solr.mapping.mappingSolr
+
+
+
+solr cloud using spring :----
+
+
+how to do data solr in crud 
+https://www.petrikainulainen.net/programming/solr/spring-data-solr-tutorial-crud-almost/
+https://www.javacodegeeks.com/2013/06/spring-data-solr-tutorial-adding-custom-methods-to-all-repositories.html
+
+
+how to build query 
+https://github.com/spring-projects/spring-data-examples/blob/master/solr/example/src/test/java/example/springdata/solr/AdvancedSolrRepositoryTests.java
+
+
+How to form Dynamic Query using spring data solr 
+
+https://www.petrikainulainen.net/programming/solr/spring-data-solr-tutorial-dynamic-queries/
+
+
+
+
+
+
+how to perform CRUD operation 
+https://www.javacodegeeks.com/2013/05/spring-data-solr-tutorial-crud-almost.html
+
+
+how to do pagination 
+
+https://www.petrikainulainen.net/programming/solr/spring-data-solr-tutorial-pagination/
+
+
+Solr Authentication 
+
+https://lucidworks.com/blog/2015/08/17/securing-solr-basic-auth-permission-rules/
+
+
+to seeing solr related indexing and their sizing 
+
+http://<ip>:8983/solr/admin/cores?action=STATUS&memory=true
+
+
+how to do configuration properly and best practises 
+
+https://support.datastax.com/hc/en-us/articles/204226369-Solr-Configuration-Best-Practices-and-Troubleshooting-Tips
+
